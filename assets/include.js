@@ -1,6 +1,6 @@
 (function(global) {
   global.assets = {};
-  var include = function(name) {
+  global.include = function(name) {
     var el = document.createElement("script");
     el.setAttribute("async", false);
     el.setAttribute("src", name + ".js");
